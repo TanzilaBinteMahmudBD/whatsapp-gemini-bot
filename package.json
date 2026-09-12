@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-gemini-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot with Gemini API for Visual Storyboard Studio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "@google/generative-ai": "^0.0.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1"
+  }
+}
